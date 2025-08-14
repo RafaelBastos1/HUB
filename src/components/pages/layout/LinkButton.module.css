@@ -1,0 +1,9 @@
+.btn{
+    background: #FDD762;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    transition: 0.5s;
+    color: #0c0c0c;
+    border-radius: 40px;
+    margin: 0 4px;
+}
