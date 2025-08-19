@@ -22,7 +22,7 @@ function Home() {
   
   <div className="botoes">
     <LinkButton to="/cadastrocliente" text="Eu sou cliente" />
-   <LinkButton to="/servico" text="Eu ofereço serviço" />
+   <LinkButton to="/cadastroprestador" text="Eu ofereço serviço" />
 </div>
  </section>
 )
