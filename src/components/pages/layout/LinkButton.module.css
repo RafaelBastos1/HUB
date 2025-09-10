@@ -1,0 +1,32 @@
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+
+}
+
+/* Botão principal */
+.primary {
+  background-color: #FFDE59;
+  color: rgb(15, 15, 15);
+
+}
+
+.primary:hover {
+  background-color: #f0efec;
+}
+
+/* Botão secundário */
+.secondary {
+  background-color:#FFDE59;
+  /*color: #e8f162;*/
+  /*border: 1px solid #ccc;*/
+ 
+}
+
+.secondary:hover {
+  background-color: #f0efec;
+}

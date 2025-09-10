@@ -1,0 +1,90 @@
+/* Container centralizado */
+.profileContainer {
+  max-width: 600px;
+  margin: 50px auto; /* centraliza vertical e horizontal */
+  background-color: #ffffff;
+  padding: 30px 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  font-family: Arial, sans-serif;
+}
+
+/* Título */
+.profileContainer h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Card de informações */
+.profileCard p {
+  margin: 12px 0;
+  font-size: 16px;
+  color: #444;
+}
+
+.profileCard input,
+.profileCard textarea {
+  width: 100%;
+  padding: 8px 10px;
+  margin-top: 4px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.profileCard textarea {
+  resize: vertical;
+}
+
+/* Mensagens */
+.successMessage {
+  color: green;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.errorMessage {
+  color: red;
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* Container dos botões */
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+/* Estilo dos botões */
+.btn {
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 14px;
+  text-decoration: none;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.btn.primary {
+  background-color: #ffde59;
+  color: #333;
+}
+
+.btn.primary:hover {
+  background-color: #ffd633;
+}
+
+.btn.secondary {
+  background-color: #ccc;
+  color: #333;
+}
+
+.btn.secondary:hover {
+  background-color: #bbb;
+}

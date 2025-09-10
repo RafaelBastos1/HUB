@@ -1,0 +1,65 @@
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: 'Courier New', Courier, monospace;
+
+}
+
+.titulo {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.slide {
+  background: #eee;
+  padding: 20px;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.slide h3 {
+  margin-bottom: 10px;
+}
+
+.slide p {
+  font-size: 16px;
+  color: #444;
+}
+
+ .card {
+  display: flex;              /* ativa flexbox */
+  flex-direction: column;     /* empilha verticalmente (imagem em cima, texto embaixo) */
+  align-items: center;        /* centraliza horizontalmente */
+  gap: 20px;                  /* espaçamento entre itens */
+  padding: 20px;
+}
+.card img {
+  width: 100%;        /* para ocupar toda largura possível do card */
+  max-width: 600px;   /* limita largura máxima */
+  height: auto;       /* mantém proporção */
+  border-radius: 8px; /* se quiser bordas arredondadas */
+}
+
+.botoes {
+  display: inline-block;
+  padding: 10px 10px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: filter .2s, transform .1s;
+  margin-right: 12px;
+
+
+}
+
+.botoes:hover {
+  filter: brightness(1.1);
+  transform: translateY(-1px);
+
+}
+
+.botoes:active {
+  transform: translateY(0);
+}
