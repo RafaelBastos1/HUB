@@ -48,7 +48,7 @@ const CadastroCliente = () => {
           }
         })
         .catch(() => {
-          alert('Digite o CEP correto')
+          alert('Digite o CEP correto!')
         })
     }
   }, [cep])
