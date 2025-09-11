@@ -48,7 +48,7 @@ const CadastroCliente = () => {
           }
         })
         .catch(() => {
-          alert('Erro ao buscar o CEP')
+          alert('Digite o CEP correto')
         })
     }
   }, [cep])
